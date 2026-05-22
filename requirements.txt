@@ -1,0 +1,23 @@
+# SynapseHSG Pipeline
+requests
+numpy
+faiss-cpu
+PyMuPDF                  # fitz — PDF parsing
+pypdfium2                # PDF rendering to images
+PyPDF2                   # PDF text extraction (fallback)
+Pillow                   # Image handling
+json-repair              # Robust JSON parsing
+librosa                  # Audio prosody analysis
+
+# Training
+torch
+peft
+transformers
+trl
+datasets
+scikit-learn             # sklearn — MLP features, SVD, metrics
+scipy                    # Sparse matrices
+joblib                   # Model serialization
+
+# Evaluation
+# (only requests, numpy — already listed above)
